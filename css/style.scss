@@ -1,0 +1,27 @@
+$main_font:'Roboto', sans-serif;
+$second_font: 'Barlow Condensed', sans-serif;
+$r: 400;
+$b: 700;
+
+body{
+    font-family: $main_font;
+    font-weight: $r;
+}
+a{
+    &:hover,
+    &:focus{
+        text-decoration: inherit;   
+    }
+}
+button{
+    outline: none;
+}
+.padd-30{
+    padding: 0 30px;
+    @media (max-width: 1280px){
+        padding: 0 20px;
+    }
+    @media (max-width: 767px){
+        padding: 0 14px;
+    }
+}
