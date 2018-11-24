@@ -6,12 +6,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--    <title>project</title>-->
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
+    <section class="main-content">
+        <div class="main-content__left-side">
+            <div class="head-page">
+                <h1 class="head-page__text">Детали маршрута</h1>
+
+            </div>
+            <section class="head-image" style="background-image: url(img/baner.jpg)">
+                <div class="head-image__descr">
+                    <div class="head-image__descr__progress">
+                        <p>8.0</p>
+                        <div class="head-image__descr__progress__bar">
+                            <div class="head-image__descr__progress__bar__width" style="width: 80%"></div>
+                        </div>
+
+                    </div>
+                    <h2 class="head-image__descr__name">Москва - Милан</h2>
+                </div>
+            </section>
+            
+            <section class="body-content">
+                <div class="body-content__block">
+                    <h4 class="body-content__block__head">
+                        Дорога
+                    </h4>
+                    <div class="transport">
+                        <div class="transport__item active">
+                            <p>Все</p>
+                        </div>
+                        <div class="transport__item">
+                            <p>
+                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.5762 0.423787C14.0029 -0.149494 13.0705 -0.139914 12.5091 0.445056L9.43629 3.64711L1.93743 1.16547L0.363281 2.73964L6.61383 6.58823L3.45105 9.88395L1.4228 9.55096L0 10.9738L2.98184 12.0182L4.02624 15L5.44904 13.5772L5.11605 11.5489L8.41178 8.3862L12.2604 14.6367L13.8345 13.0625L11.3529 5.56369L14.5549 2.49089C15.1399 1.9295 15.1495 0.997097 14.5762 0.423787Z" fill="#000"/>
+                                </svg>
+                                Самолет
+                            </p>
+                        </div>
+                         <div class="transport__item">
+                            <p>
+                                <svg width="17" height="19" viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 14C0 14.9 0.425 15.7 1.0625 16.2V18C1.0625 18.6 1.4875 19 2.125 19H3.1875C3.825 19 4.25 18.6 4.25 18V17H12.75V18C12.75 18.6 13.175 19 13.8125 19H14.875C15.5125 19 15.9375 18.6 15.9375 18V16.2C16.575 15.7 17 14.9 17 14V4C17 0.5 13.175 0 8.5 0C3.825 0 0 0.5 0 4V14ZM3.71875 15C2.86875 15 2.125 14.3 2.125 13.5C2.125 12.7 2.86875 12 3.71875 12C4.56875 12 5.3125 12.7 5.3125 13.5C5.3125 14.3 4.56875 15 3.71875 15ZM13.2812 15C12.4313 15 11.6875 14.3 11.6875 13.5C11.6875 12.7 12.4313 12 13.2812 12C14.1313 12 14.875 12.7 14.875 13.5C14.875 14.3 14.1313 15 13.2812 15ZM14.875 9H2.125V4H14.875V9Z" fill="#000"/>
+                                </svg>
+
+                                Автобус
+                            </p>
+                        </div>
+                        <div class="transport__item">
+                            <p>
+                                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.1365 16.2808H17.3501C17.7217 16.2808 18.023 15.9796 18.023 15.6079V2.64271C18.023 1.71359 17.2698 0.960407 16.3407 0.960407H12.6468V0H8.3532V0.960407H4.65932C3.73021 0.960407 2.97702 1.71359 2.97702 2.64271V15.6079C2.97702 15.9795 3.2783 16.2808 3.64995 16.2808H4.86356L0 20.0248H3.12636L6.93676 16.2808H14.0632L17.8736 20.0248H21L16.1365 16.2808ZM14.0632 14.1591C14.0632 13.5898 14.5248 13.1282 15.0942 13.1282C15.6636 13.1282 16.1251 13.5897 16.1251 14.1591C16.1251 14.7285 15.6636 15.1901 15.0942 15.1901C14.5248 15.1901 14.0632 14.7285 14.0632 14.1591ZM5.97776 15.1901C5.40839 15.1901 4.94684 14.7285 4.94684 14.1591C4.94684 13.5898 5.40839 13.1282 5.97776 13.1282C6.54713 13.1282 7.00872 13.5897 7.00872 14.1591C7.00872 14.7285 6.54713 15.1901 5.97776 15.1901ZM4.98771 9.85947C4.8019 9.85947 4.65126 9.70883 4.65126 9.52302V3.00774C4.65126 2.82193 4.8019 2.67129 4.98771 2.67129H16.0123C16.1981 2.67129 16.3488 2.82193 16.3488 3.00774V9.52302C16.3488 9.70883 16.1981 9.85947 16.0123 9.85947H4.98771Z" fill="#000"/>
+                                </svg>
+                                Поезд
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tickets">
+                        <div class="tickets__item">
+                            <div class="tickets__item__top">
+                                <p class="price">11 787 ₽</p>
+                                <div class="img">
+                                    <img src="img/belavia.png" class="img-responsive" alt="">
+                                </div>
+                            </div>
+                            <div class="tickets__item__mid">
+                                <p>1 пассажир</p>
+                            </div>
+                            <div class="tickets__item__bott">
+                                <div class="tickets__item__bott__item">
+                                    <p class="h">VKO - BGY</p>
+                                    <p class="info">13:20 - 15:45</p>
+                                </div>
+                                <div class="tickets__item__bott__item">
+                                    <p class="h">Перелет</p>
+                                    <p class="info">03ч 25м</p>
+                                </div>
+                                <div class="tickets__item__bott__item">
+                                    <p class="h">Пересадки</p>
+                                    <p class="info">Прямой</p>
+                                </div>
+                            </div>
+                            <div class="tickets__item__pick">
+                                <p class="not-picked">Выбрать</p>
+                                <p class="picked">Выбрано</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            
+            </section>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        <div class="main-content__right-side">
+            тут чатик
+        </div>
+    </section>
+    
     
     
     
